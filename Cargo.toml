@@ -1,0 +1,20 @@
+[package]
+name = "file-manager"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+gtk4 = "0.6"
+gtk4-macros = "0.6"
+glib = "0.16"
+gio = "0.16"
+libc = "0.2"
+tokio = { version = "1", features = ["full"] }
+walkdir = "2.3"
+dirs = "4.0"
+zip = "0.6"
+reqwest = { version = "0.11", features = ["json"] }
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+rusqlite = "0.28"
+termion = "1.5"
